@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Ecosource.io</title>
+		<link rel="https://cdn.pixabay.com/photo/2020/08/05/13/27/eco-5465459_1280.png">
+
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@100;200&display=swap');
+		</style>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<div class="header">
+			<nav>
+				<a  class="active" href="index.html">HOME</a>
+				<a href="information.html">INFORMATION</a>
+				<a href="quizzes.html">QUIZZES</a>
+				<a href="resources.html">RESOURCES</a>
+				<a href="stories.html">STORIES</a>
+			</nav>
+			<h1 class="headerLabel">Ecosource.io</h1>
+			
+		</div>
+
+		<p class="questionLabel" style="font-weight: bolder">Alex and her friends are helping out at the local park this weekend for a summer cleanup. Help them figure out if the items they find should be recycled or thrown away.  
+</p>
+		<!-- Form Questions -->
+		<form class="storyQuizForm">
+			<!-- Question 1 -->
+			<p class="questionLabel">Styrofoam plates and cups from a picnic:</p>
+			<input class="radio" type="radio" name="alexQ1">
+			<label class="radio">Recycle</label> <br>
+
+			<input class="radio correct" type="radio" name="alexQ1">
+			<label class="radio">Trash</label> <br>
+
+			<p class="endDisplay">
+				Styrofoam should always be thrown away. Correct: Trash
+			</p>
+
+			<!-- Question 2 -->
+			<p class="questionLabel">Multitude of Plastic Bottles:</p>
+			<input class="radio correct" type="radio" name="alexQ2">
+			<label class="radio">Recycle</label> <br>
+
+			<input class="radio" type="radio" name="alexQ2">
+			<label class="radio">Trash</label> <br>
+
+			<p class="endDisplay">
+				Clean plastic must be recycled. Correct: Recycle
+			</p>
+
+			<!-- Question 3 -->
+			<p class="questionLabel">Sprite and Dr.Pepper Cans:</p>
+			<input class="radio correct" type="radio" name="alexQ3">
+			<label class="radio">Recycle</label> <br>
+
+			<input class="radio" type="radio" name="alexQ3">
+			<label class="radio">Trash</label> <br>
+
+			<p class="endDisplay">
+				Metal cans can be recycled. Correct: Recycle
+			</p>
+
+			<!-- Question 4 -->
+			<p class="questionLabel">Old Kleenex:</p>
+			<input class="radio" type="radio" name="alexQ4">
+			<label class="radio">Recycle</label> <br>
+
+			<input class="radio correct" type="radio" name="alexQ4">
+			<label class="radio">Trash</label> <br>
+
+			<p class="endDisplay">
+				Correct: Trash
+			</p>
+
+			<!-- Question 5 -->
+			<p class="questionLabel">Newspaper clippings:</p>
+			<input class="radio correct" type="radio" name="alexQ5">
+			<label class="radio">Recycle</label> <br>
+
+			<input class="radio" type="radio" name="alexQ5">
+			<label class="radio">Trash</label> <br>
+
+			<p class="endDisplay">
+				Paper can be recycled. Correct: Recycle
+			</p>
+
+			<!-- Question 6 -->
+			<p class="questionLabel">Pizza Hut Pizza Boxes:</p>
+			<input class="radio" type="radio" name="alexQ6">
+			<label class="radio">Recycle</label> <br>
+
+			<input class="radio correct" type="radio" name="alexQ6">
+			<label class="radio">Trash</label> <br>
+
+			<p class="endDisplay">
+				Items with food residue must not be recycled. Correct: Trash
+			</p>
+
+			<!-- Question 7 -->
+			<p class="questionLabel">Broken Glass shards:</p>
+			<input class="radio" type="radio" name="alexQ7">
+			<label class="radio">Recycle</label> <br>
+
+			<input class="radio correct" type="radio" name="alexQ7">
+			<label class="radio">Trash</label> <br>
+
+			<p class="endDisplay">
+				Broken glass can cause abnormalies in the recycling process. Correct: Trash
+			</p>
+
+			<br>
+			<br>
+			<input type="submit" class="sub-btn-story">
+
+		</form>
+
+		<p class="questionLabelStory">You got this correct</p>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    	<script src="alexStory.js" type="text/javascript"></script>
+	</body>
+
+</html>

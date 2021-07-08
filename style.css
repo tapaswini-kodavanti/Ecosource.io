@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway&display=swap');
+/******** LANDING PAGE ********/
+ *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+} 
+/* Header */
+.header {
+	height: 500px;
+	background-image: url('HeaderImage.png');
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	flex-direction: column;
+	background-size: 100% auto;
+}
+
+
+.headerLabel {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 400%;
+	color: white;
+	font-weight: 50;
+	margin-top: 70px;
+}
+
+
+/* Nav bar styling */
+a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration:none;
+	color:white;
+	font-size: 130%;
+	margin: 0px 30px 0px 10px;
+}
+
+a:hover{
+  opacity: .7;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	position:sticky;
+	position:-webkit-sticky;
+	top:0;
+	margin-top: 40px;
+	padding: 10px 0px 50px 10px;
+
+
+}
+
+/* Discover Section */
+.discoverContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.imageLabelContainer {
+	width: 500px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: column;
+}
+.landingPageImage {
+	height: 500px;
+	object-fit: cover;
+}
+.imageLabel {
+	font-family: 'Comfortaa', cursive;
+	font-size: 200%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.imageLabelSub {
+	font-family: 'Comfortaa', cursive;
+	font-size: 100%;
+	text-align: center;
+	font-weight: 50;
+	margin-bottom: 30px;
+}
+.landingPageButton {
+	font-family: 'Comfortaa', cursive;
+	background-color: #3b5142;
+	border-style: none;
+	border-radius: 15px;
+	height: 50px;
+	width: 180px;
+	font-size: 100%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.landingPageButton:hover{
+  opacity:.7;
+}
+
+/* Story Section */
+.storyLinksContainer {
+	/* border-color: black;
+	border-style: solid; */
+	margin-bottom: 30px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.storyLink {
+	width: 350px;
+	height: 550px;
+	background-color: #f8efde;
+	border-radius: 20px;
+	margin: 0px 30px 0px 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.landingPageStoryImage {
+	margin-top: 40px;
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+}
+.landingPageStoryLinkHeader {
+	/* border-color: black;
+	border-style: solid; */
+	width: 330px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.landingPageStoryLinkLabel {
+	/* border-color: black;
+	border-style: solid; */
+	width: 330px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100%;
+	text-align: center;
+}
+
+/* Resources */
+.resourcesLinksContainer {
+	/* border-color: black;
+	border-style: solid; */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	flex-direction: column;
+	align-items: center;
+}
+.resourceLink {
+	/* border-color: black;
+	border-style: solid; */
+	width: 80%;
+	height: 100px;
+	border-radius: 20px;
+	background-color: #d9ecd8;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.resourceLabelContainer {
+	/* border-color: black;
+	border-style: solid; */
+	margin-left: 3%;
+	width: 30%;
+	height: 100px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+.resourceLinkHeader {
+	/* border-color: black;
+	border-style: solid; */
+	font-family: 'Montserrat', sans-serif;
+	font-size: 120%;
+	font-weight: 900;
+	margin-top: 10px;
+	width: 160%;
+}
+.resourceLinkUrl {
+	/* border-color: black;
+	border-style: solid; */
+	font-family: 'Montserrat', sans-serif;
+	font-size: 120%;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+
+
+/******** INFORMATION PAGE ********/
+
+
+/*Info section*/
+
+.info-container{
+  max-width:100%;
+  height:100%;
+  display:block;
+  margin:auto;
+ 
+}
+.info-header{
+  text-align:center;
+  font-size:65px;
+text-transform: uppercase;
+font-weight:900;
+font-style: bold;
+font-family: 'Montserrat', sans-serif;
+padding:25px;
+color: #3b5142;
+}
+.info {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ margin: 0 auto;
+}
+
+
+img{
+  height:500px;
+  width:500px;
+	
+}
+
+.info p{
+  font-family:  'Montserrat', sans-serif;
+  font-size:30px;
+  width:500px;
+}
+img, p{
+  margin: 20px;
+}
+
+img:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+ .info p:hover{
+  font-size:32px;
+  cursor: pointer; 
+}
+
+.info-header:hover{
+  color:#fff;
+  background-color:red;
+  font-size:75px;
+
+  font-style:bold;
+  font-weight:900;
+  cursor:pointer;
+}
+
+.sector h1{
+  text-align:center;
+  font-size:65px;
+  text-transform: uppercase;
+  font-family:  'Montserrat', sans-serif;
+  padding:25px;
+	color: #3b5142;
+}
+
+.sector h1:hover{
+  color:#fff;
+  background-color:greenyellow;
+  font-size:75px;
+  font-style:bold;
+  font-weight:900;
+  cursor:pointer;
+}
+
+.sector h3{
+	font-family:  'Montserrat', sans-serif;
+	margin: 30px;
+	text-align: center;
+	color: #3b5142;
+}
+
+.fiveRs ol{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ .fiveRs ol li{
+  font-size:40px;
+  margin:50px;
+  font-family:  'Montserrat', sans-serif;
+  text-align: center;
+  list-style-type: upper-roman;
+	color: #3b5142;
+}
+
+li{
+  text-align: center;
+  list-style-type: upper-roman;
+}
+
+.r-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  width:auto;
+}
+
+.reuse, .recycle, .recondition, .repair, .reengineer {
+border: 3px solid #3b5142;
+border-radius:6px;
+width: 390px;
+height:320px;
+margin:50px;
+width: fit-content; 
+height: fit-content;
+background-color: #d9ecd8;
+
+}
+
+
+.reuse p, .recycle p, .recondition p, .repair p, .reengineer p {
+  text-align: center;
+  margin-top:5px;
+}
+
+
+
+
+/*Quizzes Page*/
+
+.heading{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color:#89A3A0;
+  padding: 10px;
+}
+
+.q-txt{
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  width:500px;
+}
+
+.quiz-page{
+  background-color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+  background-color: #89A3A0;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border: white 2px;
+  opacity: 1;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.button:hover {
+  opacity: 0.4;
+  }
+
+.questions{
+  padding: 15px;
+  margin: 5px;
+}
+
+.quiz-container{
+  background-color: #E1E8E7;
+  padding : 10px;
+  border-radius: 15px;
+}
+
+
+/********** Stories Questions **********/
+.storyQuizForm {
+	width: 100%;
+}
+.questionLabel {
+	/* border-color: black;
+	border-style: solid; */
+	font-family: 'Montserrat', sans-serif;
+  	font-size: 20px;
+	width: 90%;
+}
+.radio {
+	font-family: 'Montserrat', sans-serif;
+  	font-size: 20px;
+	margin-left: 20px;
+}
+
+.questionLabelStory {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	visibility: hidden;
+}
+
+.sub-btn-story {
+	background-color: #89A3A0;
+	color: white;
+	padding: 10px;
+	margin: 20px;
+	border: white 2px;
+	opacity: 1;
+	transition: 0.3s;
+	display: flex;
+	align-items: center;
+  cursor:pointer;
+}
+
+.sub-btn-story:hover{
+opacity:.7;
+cursor:pointer;
+}
+
+.endDisplay {
+	font-family: 'Montserrat', sans-serif;
+	color: blue;
+	font-size: 15px;
+	visibility: hidden;
+}

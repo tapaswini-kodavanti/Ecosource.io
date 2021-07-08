@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Ecosource.io</title>
+		<link rel="https://cdn.pixabay.com/photo/2020/08/05/13/27/eco-5465459_1280.png">
+
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@100;200&display=swap');
+		</style>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<div class="header">
+			<nav>
+				<a  class="active" href="index.html">HOME</a>
+				<a href="information.html">INFORMATION</a>
+				<a href="quizzes.html">QUIZZES</a>
+				<a href="resources.html">RESOURCES</a>
+				<a href="stories.html">STORIES</a>
+			</nav>
+			<h1 class="headerLabel">Ecosource.io</h1>
+			
+		</div>
+
+		<p class="questionLabel" style="font-weight: bolder">Jenny is a fresh-out-of college student who is learning how to balance her finances with her energy usage. Although she is trying her best to cut down on energy waste, her electric bill was still very high last month. She wants a few more tips on how she can use her energy in the most efficient way. Answer the questions below to see if you can help her out. 
+</p>
+		<!-- Form Questions -->
+		<form class="storyQuizForm">
+			<!-- Question 1 -->
+			<p class="questionLabel">Jenny is going to do a load of laundry today. The best time for her to wash her clothes is:</p>
+			<input class="radio" type="radio" name="jennyQ1">
+			<label class="radio">Once she gets home from work (4 PM)</label> <br>
+
+			<input class="radio" type="radio" name="jennyQ1">
+			<label class="radio">Before she starts cooking dinner (6 PM)</label> <br>
+
+			<input class="radio correct" type="radio" name="jennyQ1">
+			<label class="radio">When she is watching a TV show (8 PM)</label> <br>
+
+			<p class="endDisplay">
+				It is best to wash your clothes during non-peak hour times, which are before 4 PM and after 7 PM. Correct: 3
+			</p>
+
+			<!-- Question 2 -->
+			<p class="questionLabel">Jenny is at the home improvement’s store. She is considering replacing her light bulbs since they seem to be going out. The type of light bulbs she should chose is:</p>
+			<input class="radio" type="radio" name="jennyQ2">
+			<label class="radio">Traditional bulbs</label> <br>
+
+			<input class="radio correct" type="radio" name="jennyQ2">
+			<label class="radio">LED bulbs</label> <br>
+
+			<input class="radio" type="radio" name="jennyQ2">
+			<labe class="radio">Incandescent bulbs</label> <br>
+
+			<p class="endDisplay">
+				LED turn out to be 80% more efficient energy-wise than traditional bulbs. Correct: 2
+			</p>
+
+			<!-- Question 3 -->
+			<p class="questionLabel">Jenny just bought a new gaming console. She is excited to play the latest games but she understands that the device may draw more power than she might think. When she isn’t using the console, she should:</p>
+			<input class="radio" type="radio" name="jennyQ3">
+			<label class="radio">Leave it turned on</label> <br>
+
+			<input class="radio" type="radio" name="jennyQ3">
+			<label class="radio">Leave it plugged in but turned off</label> <br>
+
+			<input class="radio correct" type="radio" name="jennyQ3">
+			<labe class="radio">Unplug the device</label> <br>
+
+			<p class="endDisplay">
+				Gaming consoles are common examples of “energy vampires,” utilities that draw energy even when they aren’t in use. Unplugging energy vampires can reduce your electric bill by 5 to 10 percent. Correct: 3
+			</p>
+
+			<!-- Question 4 -->
+			<p class="questionLabel">Jenny just got back from working out at the gym. She has some work to finish soon, so she is under a time constraint. Jenny should:</p>
+			<input class="radio" type="radio" name="jennyQ4">
+			<label class="radio">Take a nice, long bath</label> <br>
+
+			<input class="radio" type="radio" name="jennyQ4">
+			<label class="radio">Take a hot shower to relax her muscles</label> <br>
+
+			<input class="radio correct" type="radio" name="jennyQ4">
+			<labe class="radio">Take a cool shower to focus her mind</label> <br>
+
+			<p class="endDisplay">
+				It takes a lot of energy to heat a tank of water, so be mindful of how much hot water you consume at home. Correct: 3
+			</p>
+
+			<!-- Question 5 -->
+			<p class="questionLabel">Jenny is looking to update her thermostat to make it more responsive to the temperature outside. She should:</p>
+			<input class="radio" type="radio" name="jennyQ5">
+			<label class="radio">Keep her current one</label> <br>
+
+			<input class="radio correct" type="radio" name="jennyQ5">
+			<label class="radio">Purchase an AI powered thermostat</label> <br>
+
+			<input class="radio" type="radio" name="jennyQ5">
+			<labe class="radio">Update her appliances to make them more energy efficient</label> <br>
+
+			<p class="endDisplay">
+				An AI powered thermostat can be set to automatically turn off or reduce heating and cooling during the times when you are asleep or away. Correct: 2
+			</p>
+
+			<br>
+			<br>
+			<input type="submit" class="sub-btn-story">
+
+		</form>
+
+		<p class="questionLabelStory">You got this correct</p>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    	<script src="jennyStory.js" type="text/javascript"></script>
+	</body>
+
+</html>
